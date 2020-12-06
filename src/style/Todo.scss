@@ -1,0 +1,129 @@
+@import "color";
+@import "font";
+
+.pink {
+  color: $color-pink;
+  div {
+    color: $color-pink;
+  }
+  i {
+    color: $color-pink;
+  }
+}
+
+.mt45 {
+  margin-top: 45px;
+}
+
+.mt60 {
+  margin-top: 60px;
+}
+
+.text-decoration{
+  color: inherit;
+  text-decoration: none;
+}
+
+.Todo-container {
+  background-color: $color-navy;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+
+  .Todo-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .Todo-left-top-container {
+      margin-top: 45px;
+
+      .Todo-left-top-field {
+        text-decoration: none;
+        margin-bottom: 42px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: $color-plain;
+
+        i {
+          text-decoration: none;
+          font-size: 2.25rem;
+          margin-right: 0.5rem;
+        }
+
+        .Todo-left-top-field-text {
+          font: Bold 2.25rem / 2.25rem Roboto;
+          text-transform: uppercase;
+          opacity: 1;
+        }
+      }
+    }
+
+    .Todo-left-down-container {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-items: center;
+      background-color: $color-powder-white;
+      width: 350px;
+      height: 175px;
+      border-radius: 350px 350px 0 0;
+
+      .Todo-left-down-top-container {
+        background-color: $color-navy;
+        border-radius: 50%;
+        margin-top: -52px;
+        padding: 6px;
+      }
+
+      .Todo-left-down-mid-container {
+        font: Bold 64px/64px Roboto;
+        letter-spacing: 0;
+        color: #ff4384;
+      }
+
+      .Todo-left-down-down-container {
+        // margin-bottom: 5px;
+        font: Bold 16px/24px Roboto;
+        letter-spacing: 0;
+        color: #003164;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .Todo-mid-container {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+
+    // justify-content: space-between;
+    .Todo-mid-mid-container {
+      margin-top: 48px;
+    }
+
+    .Todo-mid-down-container {
+      margin-top: 49px;
+    }
+  }
+
+  .Todo-right-container {
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    i {
+      margin-top: 48px;
+      font-size: 24px;
+    }
+    div {
+      margin-bottom: 48px;
+      font: Bold 24px/32px Futura;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+  }
+}

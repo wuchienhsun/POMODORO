@@ -1,0 +1,41 @@
+@import 'color';
+@import 'font';
+
+.TodoField-container {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  color: $color-white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px $color-plain solid;
+
+  .TodoField-left-container {
+    display: flex;
+    align-items: center;
+
+    i {
+      margin-right: 4px;
+    }
+  }
+
+  .TodoField-right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .done-text {
+    text-decoration: line-through;
+  }
+
+
+}
+
+.dot-container {
+  margin-left: 8px;
+  width: 12px;
+  height: 12px;
+  background-color: $color-white;
+  border-radius: 50%;
+}

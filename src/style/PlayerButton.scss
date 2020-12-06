@@ -1,0 +1,54 @@
+@import "color";
+@import "font";
+
+.player-button-container {
+  .player-button-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $color-pink;
+    border-radius: 50%;
+    width: 104px;
+    height: 104px;
+
+    .player-button-circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 96px;
+      height: 96px;
+      background-color: $color-pink;
+      i {
+        font-size: 4rem;
+        color: $color-white;
+      }
+    }
+  }
+}
+
+.player-big-button-container {
+  .player-button-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid $color-pink;
+    border-radius: 50%;
+    width: 540px;
+    height: 540px;
+
+    .player-button-circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      width: 524px;
+      height: 524px;
+      background-color: $color-pink;
+      i {
+        font-size: 124px;
+        color: $color-white;
+      }
+    }
+  }
+}

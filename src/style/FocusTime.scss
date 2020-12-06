@@ -1,0 +1,60 @@
+@import "color";
+@import "font";
+
+.FocusTime-title-container {
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  background-color: $color-plain;
+
+  .FocusTime-title-text {
+    margin-left: 16px;
+    font: Bold 24px/36px Roboto;
+    letter-spacing: 0;
+    color: $color-white;
+    text-transform: uppercase;
+  }
+}
+
+.FocusTime-container {
+  .chart {
+    margin-top: 60px;
+  }
+  width: 445px;
+
+  .FocusTime-detail-container {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .FocusTime-detail-content-container {
+      .FocusTime-detail-content-title {
+        font: Bold 16px/36px Roboto;
+        color: $color-white;
+        text-transform: uppercase;
+      }
+      .FocusTime-detail-content-value-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .FocusTime-detail-content-value {
+          font: Bold 64px/64px Roboto;
+          letter-spacing: 0;
+          color: $color-pink;
+          text-transform: uppercase;
+        }
+        .FocusTime-detail-content-caption {
+          margin-top: 24px;
+          font: Bold 16px/16px Roboto;
+          letter-spacing: 0;
+          color: $color-plain;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+

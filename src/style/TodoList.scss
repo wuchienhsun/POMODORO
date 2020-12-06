@@ -1,0 +1,39 @@
+@import 'color';
+@import 'font';
+
+.open {
+  transition: transform 1s ease-in-out;
+  transform: translateY(10px);
+}
+.close {
+  transition: transform 1s ease-in-out;
+  transform: translateY(-10px);
+}
+
+.TodoList-container {
+  .TodoList-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    background-color: $color-plain;
+
+
+    .TodoList-title-text {
+      margin-left: 16px;
+      font: Bold 24px/36px Roboto;
+      letter-spacing: 0;
+      color: $color-white;
+      text-transform: uppercase;
+    }
+
+    i {
+      margin-right: 16px;
+      color: $color-white;
+    }
+  }
+
+  .TodoList-field-container {
+    margin-top: 16px;
+  }
+}
