@@ -15,6 +15,7 @@ function App() {
       <Route exact path="/POMODORO" component={Landing} />
       <Route exact path="/POMODORO/todo" component={TODO} />
       <Route exact path="/POMODORO/analytics" component={Analytics} />
+      <Route exact path="/POMODORO/analytics" component={Analytics} />
     </Router>
 
   </>);
