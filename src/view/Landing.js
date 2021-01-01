@@ -67,13 +67,13 @@ class Landing extends Component {
             </div>
             <div className="landing-page-right-right-column-container">
               <div className="landing-page-right-right-column-top">
-                <Link className="Todo-left-top-field text-decoration" to="/todo">
+                <Link className="Todo-left-top-field text-decoration" to="/POMODORO/todo">
                   <i className="material-icons">list</i>
                 </Link>
-                <Link className="Todo-left-top-field text-decoration" to="/analytics">
+                <Link className="Todo-left-top-field text-decoration" to="/POMODORO/analytics">
                   <i className="material-icons">insert_chart</i>
                 </Link>
-                <Link className="Todo-left-top-field text-decoration" to="/ringtones">
+                <Link className="Todo-left-top-field text-decoration" to="/POMODORO/ringtones">
                   <i className="material-icons">library_music</i>
                 </Link>
               </div>
