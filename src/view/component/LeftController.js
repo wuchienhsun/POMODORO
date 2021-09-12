@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from "react";
 import "../../style/Todo.scss";
 import PlayerButton from "./PlayerButton";
@@ -16,7 +17,7 @@ const LeftController = props => {
                 ? "Todo-left-top-field pink"
                 : "Todo-left-top-field"
             }
-            to="/todo"
+            to="/POMODORO/todo"
           >
             <i className="material-icons">list</i>
             <div className="Todo-left-top-field-text">to-do list</div>
@@ -27,7 +28,7 @@ const LeftController = props => {
                 ? "Todo-left-top-field pink"
                 : "Todo-left-top-field"
             }
-            to="/analytics"
+            to="/POMODORO/analytics"
           >
             <i class="material-icons">insert_chart</i>
             <div className="Todo-left-top-field-text">analytics</div>
@@ -38,7 +39,7 @@ const LeftController = props => {
                 ? "Todo-left-top-field pink"
                 : "Todo-left-top-field"
             }
-            to="/ringtones"
+            to="/POMODORO/ringtones"
           >
             <i class="material-icons">library_music</i>
             <div className="Todo-left-top-field-text">ringtones</div>

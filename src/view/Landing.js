@@ -1,8 +1,10 @@
-import React, { Component } from "react";
-import "../style/Landing.scss";
-import AddInput from "./component/AddInput";
-import PlayerButton from "./component/PlayerButton";
-import { Link } from "react-router-dom";
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable react/jsx-filename-extension */
+import React, { Component } from 'react';
+import '../style/Landing.scss';
+import { Link } from 'react-router-dom';
+import AddInput from './component/AddInput';
+import PlayerButton from './component/PlayerButton';
 
 class Landing extends Component {
   render() {
@@ -16,12 +18,12 @@ class Landing extends Component {
           {/* mid */}
           <div className="landing-page-left-mid-container">
             <div className="landing-page-left-mid-top-container">
-              <div className="landing-page-left-mid-top-left"></div>
+              <div className="landing-page-left-mid-top-left" />
               <div className="landing-page-left-mid-top-right">
                 <div className="landing-page-left-mid-top-right-text">
                   the First thing to do today
                 </div>
-                <div className="landing-page-left-mid-top-right-circle"></div>
+                <div className="landing-page-left-mid-top-right-circle" />
               </div>
             </div>
             <div className="landing-page-left-mid-bottom-container">
@@ -32,7 +34,7 @@ class Landing extends Component {
           <div>
             <div className="landing-page-left-bottom-container landing-page-left-bottom-container-border">
               <div className="landing-page-left-bottom-right-container">
-                <div className="landing-page-left-bottom-circle"></div>
+                <div className="landing-page-left-bottom-circle" />
                 <div className="landing-page-left-bottom-text">
                   the second thing to do today
                 </div>
@@ -43,7 +45,7 @@ class Landing extends Component {
             </div>
             <div className="landing-page-left-bottom-container landing-page-left-bottom-container-border">
               <div className="landing-page-left-bottom-right-container">
-                <div className="landing-page-left-bottom-circle"></div>
+                <div className="landing-page-left-bottom-circle" />
                 <div className="landing-page-left-bottom-text">
                   the second thing to do today
                 </div>
@@ -53,7 +55,7 @@ class Landing extends Component {
               </div>
             </div>
             <div className="landing-page-left-bottom-text-more">
-              <Link className="text-decoration" to="/todo">
+              <Link className="text-decoration" to="/POMODORO/todo">
                 more
               </Link>
             </div>

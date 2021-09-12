@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const RightController = () => {
   return (
     <div className="Todo-right-container">
-      <Link className="text-decoration" to="/">
+      <Link className="text-decoration" to="/POMODORO">
         <i className="material-icons">clear</i>
       </Link>
       <div>POMODORO</div>

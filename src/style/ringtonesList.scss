@@ -1,0 +1,29 @@
+@import "color";
+@import "font";
+
+.ringtonesList-container {
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    background-color: $color-plain;
+
+    .title-text {
+      margin-left: 16px;
+      font: Bold 24px/36px Roboto;
+      letter-spacing: 0;
+      color: $color-white;
+      text-transform: uppercase;
+    }
+
+    i {
+      margin-right: 16px;
+      color: $color-white;
+    }
+  }
+
+  .field-container {
+    margin-top: 16px;
+  }
+}

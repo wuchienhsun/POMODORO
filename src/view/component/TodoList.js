@@ -1,8 +1,11 @@
-import React, { useState } from "react";
-import "../../style/TodoList.scss";
-import TodoField from "./TodoField";
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable react/jsx-filename-extension */
+import React, { useState } from 'react';
+import '../../style/TodoList.scss';
+import TodoField from './TodoField';
 
-const TodoList = props => {
+const TodoList = (props) => {
   const [view, changeView] = useState(true);
   return (
     <div className="TodoList-container">
@@ -12,11 +15,11 @@ const TodoList = props => {
       >
         <div className="TodoList-title-text">{props.name}</div>
         <i className="material-icons">
-          {view ? "keyboard_arrow_up" : "keyboard_arrow_down"}
+          {view ? 'keyboard_arrow_up' : 'keyboard_arrow_down'}
         </i>
       </div>
       <div className="TodoList-field-container">
-        {view ? <TodoField  type={props.type} time={[1, 2, 3]} /> : null}
+        {view ? <TodoField type={props.type} time={[1, 2, 3]} /> : null}
       </div>
     </div>
   );
