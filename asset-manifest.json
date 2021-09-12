@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/POMODORO/static/css/main.54bd6cdb.chunk.css",
-    "main.js": "/POMODORO/static/js/main.023f74fb.chunk.js",
-    "main.js.map": "/POMODORO/static/js/main.023f74fb.chunk.js.map",
+    "main.css": "/POMODORO/static/css/main.3ae93f42.chunk.css",
+    "main.js": "/POMODORO/static/js/main.86612fcc.chunk.js",
+    "main.js.map": "/POMODORO/static/js/main.86612fcc.chunk.js.map",
     "runtime-main.js": "/POMODORO/static/js/runtime-main.09fd7322.js",
     "runtime-main.js.map": "/POMODORO/static/js/runtime-main.09fd7322.js.map",
-    "static/js/2.18ef6f13.chunk.js": "/POMODORO/static/js/2.18ef6f13.chunk.js",
-    "static/js/2.18ef6f13.chunk.js.map": "/POMODORO/static/js/2.18ef6f13.chunk.js.map",
+    "static/js/2.33e12fff.chunk.js": "/POMODORO/static/js/2.33e12fff.chunk.js",
+    "static/js/2.33e12fff.chunk.js.map": "/POMODORO/static/js/2.33e12fff.chunk.js.map",
     "index.html": "/POMODORO/index.html",
-    "precache-manifest.28176a1aced5fa2e11b910b00167f5d0.js": "/POMODORO/precache-manifest.28176a1aced5fa2e11b910b00167f5d0.js",
+    "precache-manifest.b8941cb9c45da2ac78004469486bac4d.js": "/POMODORO/precache-manifest.b8941cb9c45da2ac78004469486bac4d.js",
     "service-worker.js": "/POMODORO/service-worker.js",
-    "static/css/main.54bd6cdb.chunk.css.map": "/POMODORO/static/css/main.54bd6cdb.chunk.css.map",
-    "static/js/2.18ef6f13.chunk.js.LICENSE.txt": "/POMODORO/static/js/2.18ef6f13.chunk.js.LICENSE.txt"
+    "static/css/main.3ae93f42.chunk.css.map": "/POMODORO/static/css/main.3ae93f42.chunk.css.map",
+    "static/js/2.33e12fff.chunk.js.LICENSE.txt": "/POMODORO/static/js/2.33e12fff.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.09fd7322.js",
-    "static/js/2.18ef6f13.chunk.js",
-    "static/css/main.54bd6cdb.chunk.css",
-    "static/js/main.023f74fb.chunk.js"
+    "static/js/2.33e12fff.chunk.js",
+    "static/css/main.3ae93f42.chunk.css",
+    "static/js/main.86612fcc.chunk.js"
   ]
 }
